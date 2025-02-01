@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Exhibition Days</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("exhibit3.png");
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            transition: background-color 0.3s ease-in-out;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover td {
+            background-color: #f9f9f9;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 10px;
+            }
+            th, td {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exhibition Days for Historic and Ancient Artifacts</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Exhibition Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>January 15, 2025</td>
+                    <td>Ancient Egypt</td>
+                    <td>Explore the wonders of Ancient Egypt, including artifacts from the time of the Pharaohs.</td>
+                </tr>
+                <tr>
+                    <td>February 20, 2025</td>
+                    <td>Roman Empire</td>
+                    <td>Discover the history and culture of the Roman Empire through various exhibits.</td>
+                </tr>
+                <tr>
+                    <td>March 10, 2025</td>
+                    <td>Medieval Europe</td>
+                    <td>Learn about the medieval period in Europe with displays of armor, manuscripts, and more.</td>
+                </tr>
+                <tr>
+                    <td>April 25, 2025</td>
+                    <td>Ancient Greece</td>
+                    <td>Experience the art and philosophy of Ancient Greece through our curated exhibits.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
